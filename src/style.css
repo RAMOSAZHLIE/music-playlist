@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    font-family: Georgia;
+    color: #695568;
+    background: #fff8fc
+}
+
+.app {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fff7fa, #f5efff, #eef8ff)
+}
+
+aside {
+    position: fixed;
+    width: 190px;
+    height: 100vh;
+    padding: 25px;
+    background: #fff5fa;
+    border-right: 1px solid #eadde7
+}
+
+aside h2 {
+    color: #b66d91;
+    margin-bottom: 30px
+}
+
+aside p {
+    padding: 12px;
+    border-radius: 10px;
+    margin: 5px
+}
+
+aside p:hover {
+    background: #f5ddea
+}
+
+main {
+    margin-left: 190px;
+    padding: 0 30px
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+input {
+    width: 350px;
+    padding: 10px 18px;
+    border: 1px solid #eadde7;
+    border-radius: 20px;
+    outline: 0
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ffe1ed, #e9ddfa)
+}
+
+.hero img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin: 8px 0
+}
+
+.hero p {
+    color: #927d90
+}
+
+.controls {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding: 20px 5px
+}
+
+.play {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #dba1bd;
+    color: white;
+    display: grid;
+    place-items: center
+}
+
+.song {
+    display: grid;
+    grid-template-columns: 35px 1.5fr 1fr 35px;
+    align-items: center;
+    padding: 6px 10px;
+    border-radius: 10px
+}
+
+.song:hover {
+    background: #f8e5ef
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.title img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 6px
+}
+
+.title b,
+.title small {
+    display: block
+}
+
+.title b {
+    font-size: 14px
+}
+
+.title small {
+    color: #ad98a8;
+    font-size: 11px;
+    margin-top: 3px
+}
